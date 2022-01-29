@@ -1,7 +1,7 @@
 
-EDIT the file 'main.py' and change these vars
+EDIT the file `main.py` and change these vars
 
-```
+```python
 path_log = "logs.txt"
 default_log_level = "INFO"
 path_mkvmerge = "D:/MKVToolNix/mkvmerge.exe"
@@ -9,8 +9,9 @@ path_mkvextract = "D:/MKVToolNix/mkvextract.exe"
 ```
 
 
-# usage args
+# Usage args
 
+```bash
 usage: main.py [-h] [-e] [--sub SUB] [--force] [--default] [-f FILE]
                [-d DIRECTORY] [-a] [-l LATEST] [-s] [-t TRACK_NAME] [-i ID]
 
@@ -32,3 +33,4 @@ optional arguments:
   -t TRACK_NAME, --track_name TRACK_NAME
                         Export subs by track name
   -i ID, --id ID        Export subs by id
+```
