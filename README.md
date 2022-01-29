@@ -11,7 +11,7 @@ path_mkvextract = "D:/MKVToolNix/mkvextract.exe"
 
 # Usage args
 
-```bash
+```
 usage: main.py [-h] [-e] [--sub SUB] [--force] [--default] [-f FILE]
                [-d DIRECTORY] [-a] [-l LATEST] [-s] [-t TRACK_NAME] [-i ID]
 
